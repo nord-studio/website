@@ -8,7 +8,7 @@ const IndexPage = () => {
 				<Flex h="100vh" py={20}>
 					<VStack w="full" h="full" alignItems="center" paddingTop="25%" paddingBottom="25%">
 						<Heading alignSelf="center" size="4xl">
-							<Countdown date={'2021-10-15T23:23:59'} />
+							<Countdown date={'2021-10-18T23:23:59'} />
 						</Heading>
 					</VStack>
 				</Flex>
