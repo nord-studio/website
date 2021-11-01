@@ -40,8 +40,8 @@ export default function Cards({
     if (tag == 'discord.js') {
       values[0] = 'blue'
       values[1] = FaDiscord
-    } else if (tag == 'Python') {
-      values[0] = 'orange'
+    } else if (tag == 'TypeScript') {
+      values[0] = 'blue'
       values[1] = FaPython
     } else if (tag == 'JavaScript') {
       values[0] = 'yellow'
