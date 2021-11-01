@@ -9,7 +9,6 @@ import {
   ScaleFade,
 } from '@chakra-ui/react'
 import {
-  FaPython,
   FaJs,
   FaSass,
   FaCode,
@@ -22,6 +21,7 @@ import {
   SiCsharp,
   SiNextDotJs,
   SiCss3,
+  SiTypescript
 } from 'react-icons/si'
 import useMediaQuery from '../hook/useMediaQuery'
 
@@ -38,11 +38,11 @@ export default function Cards({
   const getTag = (tag) => {
     let values = []
     if (tag == 'discord.js') {
-      values[0] = 'blue'
+      values[0] = 'orange'
       values[1] = FaDiscord
     } else if (tag == 'TypeScript') {
       values[0] = 'blue'
-      values[1] = FaPython
+      values[1] = SiTypescript
     } else if (tag == 'JavaScript') {
       values[0] = 'yellow'
       values[1] = FaJs
@@ -59,7 +59,7 @@ export default function Cards({
       values[0] = 'purple'
       values[1] = SiCsharp
     } else if (tag == 'NextJS') {
-      values[0] = 'blue'
+      values[0] = 'black'
       values[1] = SiNextDotJs
     } else {
       values[0] = 'gray'
