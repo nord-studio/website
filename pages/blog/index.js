@@ -64,13 +64,15 @@ export default function Index({ articles }) {
           experiences.
         </Text>
         <InputGroup maxW="400px">
-          <InputRightElement pointerEvents="none" children={<FaSearch color="#ECEFF4" />} />
+          <InputRightElement pointerEvents="none" children={<FaSearch color="#000000" />} />
           <Input
             type="text"
             placeholder="Search articles"
             value={query}
             onChange={handleChange}
-            fontColor="#88C0D0"
+            borderColor='borderColor'
+            _hover={{ borderColor: 'borderColor' }}
+            _placeholder={{ color: 'textPrimary' }}
           />
         </InputGroup>
         <Divider />

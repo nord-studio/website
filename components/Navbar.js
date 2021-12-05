@@ -42,22 +42,22 @@ export default function Navbar({ enableTransition }) {
           <DrawerBody>
             <Stack spacing="24px">
               <NextLink href="/" passHref>
-                <Button as="a" variant="ghost" fontSize="16px" textColor="displayColor" _hover={{ bg: "#2E3440" }}>
+                <Button as="a" variant="ghost" fontSize="16px" textColor="displayColor" _hover={{ bg: "#4C566A" }}>
                   Home
                 </Button>
               </NextLink>
               <NextLink href="/projects" passHref>
-                <Button as="a" variant="ghost" fontSize="16px" textColor="displayColor" _hover={{ bg: "#2E3440" }}>
+                <Button as="a" variant="ghost" fontSize="16px" textColor="displayColor" _hover={{ bg: "#4C566A" }}>
                   Projects
                 </Button>
               </NextLink>
               <NextLink href="/blog" passHref>
-                <Button as="a" variant="ghost" fontSize="16px" textColor="displayColor" _hover={{ bg: "#2E3440" }}>
+                <Button as="a" variant="ghost" fontSize="16px" textColor="displayColor" _hover={{ bg: "#4C566A" }}>
                   Blog
                 </Button>
               </NextLink>
               {/* <NextLink href="/account" passHref>
-                <Button as="a" variant="solid" bgColor='complement' fontSize="16px" _hover={{ bg: "#2E3440"}}>
+                <Button as="a" variant="solid" bgColor='complement' fontSize="16px" _hover={{ bg: "#4C566A"}}>
                   Account
                 </Button>
               </NextLink> */}
@@ -90,7 +90,7 @@ export default function Navbar({ enableTransition }) {
           px="3vw"
           py="3"
           borderBottom="0.5px solid borderColor"
-          background="secondary"
+          background="textPrimary"
         >
           <NextLink href="/">
             <a>
@@ -100,22 +100,22 @@ export default function Navbar({ enableTransition }) {
           {isLargerThan768 ? (
             <Box color="textPrimary">
               <NextLink href="/" passHref>
-                <Button as="a" variant="ghost" p="4" ml="3vw" fontSize="16px" _hover={{ bg: "#2E3440"}}>
+                <Button as="a" variant="ghost" p="4" ml="3vw" fontSize="16px" _hover={{ bg: "#4C566A"}}>
                   Home
                 </Button>
               </NextLink>
               <NextLink href="/projects" passHref>
-                <Button as="a" variant="ghost" p="4" ml="3vw" fontSize="16px" _hover={{ bg: "#2E3440" }}>
+                <Button as="a" variant="ghost" p="4" ml="3vw" fontSize="16px" _hover={{ bg: "#4C566A" }}>
                   Projects
                 </Button>
               </NextLink>
               <NextLink href="/blog" passHref>
-                <Button as="a" variant="ghost" p="4" ml="3vw" fontSize="16px" _hover={{ bg: "#2E3440" }}>
+                <Button as="a" variant="ghost" p="4" ml="3vw" fontSize="16px" _hover={{ bg: "#4C566A" }}>
                   Blog
                 </Button>
               </NextLink>
               {/* <NextLink href="/account" passHref>
-                <Button as="a" variant="solid" colorScheme="blue" p="4" ml="3vw" fontSize="16px"_hover={{ bg: "#2E3440"}}>
+                <Button as="a" variant="solid" colorScheme="blue" p="4" ml="3vw" fontSize="16px"_hover={{ bg: "#4C566A"}}>
                   Account
                 </Button>
               </NextLink>{" "} */}

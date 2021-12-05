@@ -22,16 +22,17 @@ const fluidType = (minFont, maxFont) => {
 }
 
 const colors = {
-  background: '#4C566A',
-  secondary: '#434C5E',
-  complement: '#88C0D0',
-  displayColor: '#ECEFF4',
-  textPrimary: '#ECEFF4',
-  textSecondary: '#D8DEE9',
+  background: '#FFFFFF',
+  secondary: '#ECEFF4',
+  complement: '#4C566A',
+  displayColor: '#2E3440',
+  textPrimary: '#2E3440',
+  textSecondary: '#3B4252',
   button1: '#2E3440',
   button2: '#81A1C1',
   button3: '#A3BE8C',
-  borderColor: '#3B4252',
+  borderColor: '#2E3440',
+  buttonHover: '#E5E9F0',
 }
 
 const fonts = {

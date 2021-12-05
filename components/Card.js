@@ -88,7 +88,7 @@ export default function Cards({
       minH="320px"
       maxH="500px"
       border="1px"
-      borderColor={{ base: '#00000', md: 'borderColor' }}
+      borderColor={{ base: '#D8DEE9', md: '#D8DEE9' }}
     >
       <ScaleFade in={true} transition={{ duration: 1 }}>
         <Image

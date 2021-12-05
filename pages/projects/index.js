@@ -70,15 +70,18 @@ export default function Projects({ projects }) {
               An archive of all our products. Our work is serious, we are not.
             </Text>
             <InputGroup maxW="400px">
-              <InputRightElement pointerEvents="none" children={<FaSearch color="#ECEFF4" />} />
+              <InputRightElement pointerEvents="none" children={<FaSearch color="#000000" />} />
               <Input
                 type="text"
                 placeholder="Search projects"
                 value={query}
                 onChange={handleChange}
+                borderColor='borderColor'
+                _hover={{ borderColor: 'borderColor' }}
+                _placeholder={{ color: 'textPrimary' }}
               />
             </InputGroup>
-            <Divider color="#718096" />
+            <Divider color='borderColor' />
           </Stack>
           <SimpleGrid columns={{ sm: 1, md: 2 }} spacing={8}>
             {projects.filter((e) =>
