@@ -70,7 +70,6 @@ export default function Post({ metadata, source }) {
                   name="Atlas"
                   size="xs"
                   src="https://i.imgur.com/zBi7W0D.png"
-                  border="0.1px solid #4C566A"
                 />
                 <Text fontSize={['xs', 'xs', 'sm', 'sm']} color="textPrimary">
                    Atlas /{' '}
@@ -88,7 +87,7 @@ export default function Post({ metadata, source }) {
               borderRadius="10px"
               minH="200px"
               border="1px"
-              borderColor={{ base: '#333', md: 'borderColor' }}
+              borderColor={{ base: '#333', md: '#D8DEE9' }}
             >
               <Image
                 src={metadata.image}

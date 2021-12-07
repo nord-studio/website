@@ -19,7 +19,7 @@ const PostContainer = styled(Stack)`
       padding: 16px;
       color: rgba(255, 255, 255, 0.82);
       border-left: 0.25em solid;
-      border-color: #5E81AC;
+      border-color: #5F85DB;
       background: secondary;
     }
     blockquote p {

@@ -39,12 +39,12 @@ export default function ContactMe() {
                 isExternal
               >
                 <Button
-                  leftIcon={<FaGithub fill="#88C0D0" />}
+                  leftIcon={<FaGithub fill="#5F85DB" />}
                   position="static"
                   size={isLargerThan800 ? 'md' : 'sm'}
                   color="textPrimary"
                   backgroundColor="secondary"
-                  _hover={{ bg: "#2E3440"}}
+                  _hover={{ backgroundColor: 'buttonHover' }}
                 >
                   GitHub
                 </Button>
@@ -54,12 +54,12 @@ export default function ContactMe() {
                 isExternal
               >
                 <Button
-                  leftIcon={<FaDiscord fill="#88C0D0" />}
+                  leftIcon={<FaDiscord fill="#5F85DB" />}
                   position="static"
                   size={isLargerThan800 ? 'md' : 'sm'}
                   color="textPrimary"
                   backgroundColor="secondary"
-                  _hover={{ bg: "#2E3440" }}
+                  _hover={{ backgroundColor: 'buttonHover' }}
                 >
                   Discord
                 </Button>
@@ -69,12 +69,12 @@ export default function ContactMe() {
                 isExternal
               >
                 <Button
-                  leftIcon={<FaInstagram fill="#88C0D0" />}
+                  leftIcon={<FaInstagram fill="#5F85DB" />}
                   position="static"
                   size={isLargerThan800 ? 'md' : 'sm'}
                   color="textPrimary"
                   backgroundColor="secondary"
-                  _hover={{ bg: "#2E3440" }}
+                  _hover={{ backgroundColor: 'buttonHover' }}
                 >
                   Instagram
                 </Button>
@@ -88,12 +88,12 @@ export default function ContactMe() {
                 isExternal
               >
                 <Button
-                  leftIcon={<FaTwitter fill="#88C0D0" />}
+                  leftIcon={<FaTwitter fill="#5F85DB" />}
                   position="static"
                   size={isLargerThan800 ? 'md' : 'sm'}
                   color="textPrimary"
                   backgroundColor="secondary"
-                  _hover={{ bg: "#2E3440" }}
+                  _hover={{ backgroundColor: 'buttonHover' }}
                 >
                   Twitter
                 </Button>
@@ -103,12 +103,12 @@ export default function ContactMe() {
                 isExternal
               >
                 <Button
-                  leftIcon={<FaYoutube fill="#88C0D0" />}
+                  leftIcon={<FaYoutube fill="#5F85DB" />}
                   position="static"
                   size={isLargerThan800 ? 'md' : 'sm'}
                   color="textPrimary"
                   backgroundColor="secondary"
-                  _hover={{ bg: "#2E3440" }}
+                  _hover={{ backgroundColor: 'buttonHover' }}
                 >
                   YouTube
                 </Button>
@@ -118,12 +118,12 @@ export default function ContactMe() {
                 isExternal
               >
                 <Button
-                  leftIcon={<FaTwitch fill="#88C0D0" />}
+                  leftIcon={<FaTwitch fill="#5F85DB" />}
                   position="static"
                   size={isLargerThan800 ? 'md' : 'sm'}
                   color="textPrimary"
                   backgroundColor="secondary"
-                  _hover={{ bg: "#2E3440" }}
+                  _hover={{ backgroundColor: 'buttonHover' }}
                 >
                   Twitch
                 </Button>

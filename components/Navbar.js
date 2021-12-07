@@ -35,29 +35,29 @@ export default function Navbar({ enableTransition }) {
       >
         <DrawerOverlay />
         <DrawerContent backgroundColor="background">
-          <DrawerCloseButton color="displayColor" />
-          <DrawerHeader borderBottomWidth="1px" borderColor="borderColor" backgroundColor="secondary" color="textPrimary">
+          <DrawerCloseButton color="background" />
+          <DrawerHeader borderBottomWidth="1px" borderColor="borderColor" backgroundColor="textPrimary" color="background">
             Nord.
           </DrawerHeader>
           <DrawerBody>
             <Stack spacing="24px">
               <NextLink href="/" passHref>
-                <Button as="a" variant="ghost" fontSize="16px" textColor="displayColor" _hover={{ bg: "#2E3440" }}>
+                <Button as="a" variant="ghost" fontSize="16px" textColor="displayColor" _hover={{ bg: "#26282B", textColor: 'background' }}>
                   Home
                 </Button>
               </NextLink>
               <NextLink href="/projects" passHref>
-                <Button as="a" variant="ghost" fontSize="16px" textColor="displayColor" _hover={{ bg: "#2E3440" }}>
+                <Button as="a" variant="ghost" fontSize="16px" textColor="displayColor" _hover={{ bg: "#26282B", textColor: 'background' }}>
                   Projects
                 </Button>
               </NextLink>
               <NextLink href="/blog" passHref>
-                <Button as="a" variant="ghost" fontSize="16px" textColor="displayColor" _hover={{ bg: "#2E3440" }}>
+                <Button as="a" variant="ghost" fontSize="16px" textColor="displayColor" _hover={{ bg: "#26282B", textColor: 'background' }}>
                   Blog
                 </Button>
               </NextLink>
               {/* <NextLink href="/account" passHref>
-                <Button as="a" variant="solid" bgColor='complement' fontSize="16px" _hover={{ bg: "#2E3440"}}>
+                <Button as="a" variant="solid" bgColor='complement' fontSize="16px" _hover={{ bg: "#26282B", textColor: 'background' }}>
                   Account
                 </Button>
               </NextLink> */}
@@ -90,7 +90,7 @@ export default function Navbar({ enableTransition }) {
           px="3vw"
           py="3"
           borderBottom="0.5px solid borderColor"
-          background="secondary"
+          background="textPrimary"
         >
           <NextLink href="/">
             <a>
@@ -100,28 +100,28 @@ export default function Navbar({ enableTransition }) {
           {isLargerThan768 ? (
             <Box color="textPrimary">
               <NextLink href="/" passHref>
-                <Button as="a" variant="ghost" p="4" ml="3vw" fontSize="16px" _hover={{ bg: "#2E3440"}}>
+                <Button as="a" variant="ghost" p="4" ml="3vw" fontSize="16px" _hover={{ bg: "#ECEFF4", textColor: 'textPrimary' }}>
                   Home
                 </Button>
               </NextLink>
               <NextLink href="/projects" passHref>
-                <Button as="a" variant="ghost" p="4" ml="3vw" fontSize="16px" _hover={{ bg: "#2E3440" }}>
+                <Button as="a" variant="ghost" p="4" ml="3vw" fontSize="16px" _hover={{ bg: "#ECEFF4", textColor: 'textPrimary' }}>
                   Projects
                 </Button>
               </NextLink>
               <NextLink href="/blog" passHref>
-                <Button as="a" variant="ghost" p="4" ml="3vw" fontSize="16px" _hover={{ bg: "#2E3440" }}>
+                <Button as="a" variant="ghost" p="4" ml="3vw" fontSize="16px" _hover={{ bg: "#ECEFF4", textColor: 'textPrimary' }}>
                   Blog
                 </Button>
               </NextLink>
               {/* <NextLink href="/account" passHref>
-                <Button as="a" variant="solid" colorScheme="blue" p="4" ml="3vw" fontSize="16px"_hover={{ bg: "#2E3440"}}>
+                <Button as="a" variant="solid" colorScheme="blue" p="4" ml="3vw" fontSize="16px"_hover={{ bg: "#ECEFF4", textColor: 'background' }}>
                   Account
                 </Button>
               </NextLink>{" "} */}
             </Box>
           ) : (
-              <Icon as={AiOutlineMenu} w={7} h={7} onClick={onOpen} color="displayColor" />
+              <Icon as={AiOutlineMenu} w={7} h={7} onClick={onOpen} color="background" />
           )}
         </Flex>
       </Slide>

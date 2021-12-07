@@ -33,8 +33,7 @@ export default function FeaturedProjects({ projects }) {
                     <Text
                       display={{ base: 'block', md: 'none' }}
                       fontSize={{ base: 'sm', md: 'xl' }}
-                      color="#88C0D0"
-                      _hover={{ color: '#81A1C1' }}
+                      color="complement"
                     >
                       {' '}
                       Explore more &rarr;

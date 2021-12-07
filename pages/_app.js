@@ -9,8 +9,8 @@ const GlobalStyle = ({ children }) => {
         styles={css`
           ${prismDarkTheme};
           ::selection {
-            background-color: #3B4252;
-            color: #3B4252;
+            background-color: #26282B;
+            color: #26282B;
           }
           ::-moz-selection {
             background: #ffb7b7;
@@ -23,15 +23,15 @@ const GlobalStyle = ({ children }) => {
             display: flex;
             flex-direction: column;
             min-height: 100vh;
-            background: #3B4252;
+            background: #D8DEE9;
           }
           ::-webkit-scrollbar {
             width: 8px;
-            background: #4C566A;
+            background: #303236;
           }
 
           ::-webkit-scrollbar-thumb {
-            background: #2E3440;
+            background: #26282B;
             border-radius: 8px;
           }
         `}

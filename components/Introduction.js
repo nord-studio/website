@@ -40,7 +40,7 @@ export default function Introduction() {
                 alt=""
               ></Image> */}
               <Text
-                color="complement"
+                color="#60646C"
                 fontSize="display2"
                 fontWeight="medium"
                 position="relative"
@@ -104,34 +104,37 @@ export default function Introduction() {
             <Stack isInline spacing={4}>
               <Link href="https://github.com/Nord-Studio" isExternal>
                 <Button
-                  leftIcon={<FaGithub color="#88C0D0" />}
+                  leftIcon={<FaGithub color="#5F85DB" />}
                   position="static"
                   size={isLargerThan800 ? 'md' : 'sm'}
                   color="textPrimary"
                   backgroundColor="secondary"
+                  _hover={{ backgroundColor: 'buttonHover' }}
                 >
                   Github
                 </Button>
               </Link>
               <Link href="https://dsc.gg/nord" isExternal>
                 <Button
-                  leftIcon={<FaDiscord color="#88C0D0" />}
+                  leftIcon={<FaDiscord color="#5F85DB" />}
                   position="static"
                   size={isLargerThan800 ? 'md' : 'sm'}
                   color="textPrimary"
                   backgroundColor="secondary"
+                  _hover={{ backgroundColor: 'buttonHover'}}
                 >
                   Discord
                 </Button>
               </Link>
               <Link href="mailto:hello@nordstudios.org" isExternal>
                 <Button
-                  leftIcon={<FaEnvelope fill="#88C0D0" />}
+                  leftIcon={<FaEnvelope fill="#5F85DB" />}
                   transition="0.3s"
                   position="static"
                   size={isLargerThan800 ? 'md' : 'sm'}
                   color="textPrimary"
                   backgroundColor="secondary"
+                  _hover={{ backgroundColor: 'buttonHover' }}
                 >
                   Contact
                 </Button>
@@ -150,12 +153,12 @@ export default function Introduction() {
               maxH={{ base: imageSize, lg: '500px' }}
             >
               <Image
-                src={isLargerThan900 ? "https://i.imgur.com/ZtPlXnI.png" : ""}
+                src={isLargerThan900 ? "https://i.imgur.com/rZBVlZC.png" : ""}
                 w="100%"
                 h="100%"
                 maxW={{ base: imageSize, lg: '500px' }}
                 maxH={{ base: imageSize, lg: '500px' }}
-                alt={isLargerThan900 ? "Nord Studios" : ""}
+                alt={isLargerThan900 ? "Nord Studio" : ""}
                 pos="intrinsic"
               />
             </Box>

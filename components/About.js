@@ -10,7 +10,7 @@ import SlideUpWhenVisible from '../hook/SlideUpWhenVisible'
 export default function About() {
   return (
     <>
-      <SimpleGrid columns={{ base: 1, md: 1 }} spacing={16}>
+      <SimpleGrid columns={{ base: 1, md: 2 }} spacing={16}>
         <SlideUpWhenVisible>
           <Stack spacing={4}>
             <Stack spacing={0}>
@@ -30,7 +30,7 @@ export default function About() {
               whiteSpace="pre-line"
               fontWeight="medium"
             >
-              We know how many nights you've spent rehearsing your speech, or fighting with a tiny detail that probably no one is going to notice. We've been there, we know the struggle. <br /><br />
+              We know how many nights you've spent rehearsing your speech, or fighting with a tiny detail that probably no one is going to notice. We've been there, we know the struggle.
               We build projects close to our hearts, and put everything we’ve got into them, so the final products we deliver speak for themselves. <br /><br />
             </Text>
           </Stack>
@@ -42,7 +42,13 @@ export default function About() {
                 <Heading fontFamily="Ubuntu" color="textPrimary" fontSize={{ base: '3xl', md: '4xl' }}>
                   What We Do.
                 </Heading>
-                </Stack>
+                <Text
+                  color="textPrimary"
+                  fontSize={{ base: '12px', md: '14px' }}
+                >
+                  (so far)
+                </Text>
+              </Stack>
               <Text
                 color="textPrimary"
                 fontSize={{ base: '18px', md: '22px' }}
