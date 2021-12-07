@@ -73,15 +73,17 @@ export default function Projects({ projects }) {
               <InputRightElement pointerEvents="none" children={<FaSearch color="#000000" />} />
               <Input
                 type="text"
+                color='black'
                 placeholder="Search projects"
                 value={query}
                 onChange={handleChange}
                 borderColor='borderColor'
+                textColor='textPrimary'
                 _hover={{ borderColor: 'borderColor' }}
                 _placeholder={{ color: 'textPrimary' }}
               />
             </InputGroup>
-            <Divider color='borderColor' />
+            <Divider />
           </Stack>
           <SimpleGrid columns={{ sm: 1, md: 2 }} spacing={8}>
             {projects.filter((e) =>

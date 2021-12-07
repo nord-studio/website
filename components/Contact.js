@@ -39,7 +39,7 @@ export default function ContactMe() {
                 isExternal
               >
                 <Button
-                  leftIcon={<FaGithub fill="#5E81AC" />}
+                  leftIcon={<FaGithub fill="#5F85DB" />}
                   position="static"
                   size={isLargerThan800 ? 'md' : 'sm'}
                   color="textPrimary"
@@ -54,7 +54,7 @@ export default function ContactMe() {
                 isExternal
               >
                 <Button
-                  leftIcon={<FaDiscord fill="#5E81AC" />}
+                  leftIcon={<FaDiscord fill="#5F85DB" />}
                   position="static"
                   size={isLargerThan800 ? 'md' : 'sm'}
                   color="textPrimary"
@@ -69,7 +69,7 @@ export default function ContactMe() {
                 isExternal
               >
                 <Button
-                  leftIcon={<FaInstagram fill="#5E81AC" />}
+                  leftIcon={<FaInstagram fill="#5F85DB" />}
                   position="static"
                   size={isLargerThan800 ? 'md' : 'sm'}
                   color="textPrimary"
@@ -88,7 +88,7 @@ export default function ContactMe() {
                 isExternal
               >
                 <Button
-                  leftIcon={<FaTwitter fill="#5E81AC" />}
+                  leftIcon={<FaTwitter fill="#5F85DB" />}
                   position="static"
                   size={isLargerThan800 ? 'md' : 'sm'}
                   color="textPrimary"
@@ -103,7 +103,7 @@ export default function ContactMe() {
                 isExternal
               >
                 <Button
-                  leftIcon={<FaYoutube fill="#5E81AC" />}
+                  leftIcon={<FaYoutube fill="#5F85DB" />}
                   position="static"
                   size={isLargerThan800 ? 'md' : 'sm'}
                   color="textPrimary"
@@ -118,7 +118,7 @@ export default function ContactMe() {
                 isExternal
               >
                 <Button
-                  leftIcon={<FaTwitch fill="#5E81AC" />}
+                  leftIcon={<FaTwitch fill="#5F85DB" />}
                   position="static"
                   size={isLargerThan800 ? 'md' : 'sm'}
                   color="textPrimary"

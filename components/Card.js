@@ -38,26 +38,23 @@ export default function Cards({
   const getTag = (tag) => {
     let values = []
     if (tag == 'discord.js') {
-      values[0] = 'orange'
+      values[0] = '#D08770'
       values[1] = FaDiscord
     } else if (tag == 'TypeScript') {
-      values[0] = 'blue'
+      values[0] = '#81A1C1'
       values[1] = SiTypescript
     } else if (tag == 'JavaScript') {
-      values[0] = 'yellow'
+      values[0] = '#E4B962'
       values[1] = FaJs
     } else if (tag == 'CSS') {
-      values[0] = 'pink'
+      values[0] = '#DB7093'
       values[1] = FaSass
     } else if (tag == 'NodeJS') {
-      values[0] = 'green'
+      values[0] = '#A3BE8C'
       values[1] = FaNodeJs
     } else if (tag == 'HTML') {
-      values[0] = 'red'
+      values[0] = '#BF616A'
       values[1] = SiCss3
-    } else if (tag == 'Electron') {
-      values[0] = 'purple'
-      values[1] = SiCsharp
     } else if (tag == 'NextJS') {
       values[0] = 'black'
       values[1] = SiNextDotJs
@@ -73,7 +70,7 @@ export default function Cards({
   const Tags = tag.map((item) => (
     <Tag
       key={item}
-      colorScheme={getTag(item)[0]}
+      backgroundColor={getTag(item)[0]}
       size={isLargerThan800 ? 'md' : 'sm'}
     >
       <TagLeftIcon as={getTag(item)[1]}></TagLeftIcon>

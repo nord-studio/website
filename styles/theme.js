@@ -24,10 +24,10 @@ const fluidType = (minFont, maxFont) => {
 const colors = {
   background: '#FFFFFF',
   secondary: '#ECEFF4',
-  complement: '#4C566A',
+  complement: '#5F85DB',
   displayColor: '#2E3440',
-  textPrimary: '#2E3440',
-  textSecondary: '#3B4252',
+  textPrimary: '#26282B',
+  textSecondary: '#353941',
   button1: '#2E3440',
   button2: '#81A1C1',
   button3: '#A3BE8C',
@@ -51,8 +51,8 @@ const breakpoints = createBreakpoints({
 
 const Link = {
   baseStyle: {
-    color: '#81A1C1',
-    _hover: { color: '#5E81AC', textDecoration: 'none' },
+    color: '#5F85DB',
+    _hover: { color: '#5F85DB', textDecoration: 'none' },
   },
 }
 

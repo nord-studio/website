@@ -71,6 +71,7 @@ export default function Index({ articles }) {
             value={query}
             onChange={handleChange}
             borderColor='borderColor'
+            color='black'
             _hover={{ borderColor: 'borderColor' }}
             _placeholder={{ color: 'textPrimary' }}
           />
