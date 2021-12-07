@@ -46,7 +46,7 @@ export default function About() {
                   color="textPrimary"
                   fontSize={{ base: '12px', md: '14px' }}
                 >
-                  (so far x3)
+                  (so far)
                 </Text>
               </Stack>
               <Text
