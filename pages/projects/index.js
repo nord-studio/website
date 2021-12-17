@@ -26,7 +26,7 @@ export default function Projects({ projects }) {
           />
 
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://nordstudios.org/projects" />
+          <meta property="og:url" content="https://nordstud.io/projects" />
           <meta
             property="og:title"
             content="Projects"
@@ -40,7 +40,7 @@ export default function Projects({ projects }) {
           <meta property="twitter:card" content="summary_large_image" />
           <meta
             property="twitter:url"
-            content="https://nordstudios.org/projects"
+            content="https://nordstud.io/projects"
           />
           <meta
             property="twitter:title"

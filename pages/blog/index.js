@@ -26,7 +26,7 @@ export default function Index({ articles }) {
         />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://nordstudios.org/blog" />
+        <meta property="og:url" content="https://nordstud.io/blog" />
         <meta property="og:title" content="Blog" />
         <meta
           property="og:description"
@@ -36,7 +36,7 @@ export default function Index({ articles }) {
         <meta property="og:image" content="https://i.imgur.com/097Oi61.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://nordstudios.org/blog" />
+        <meta property="twitter:url" content="https://nordstud.io/blog" />
         <meta property="twitter:title" content="Blog" />
         <meta
           property="twitter:description"

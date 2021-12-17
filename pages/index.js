@@ -20,7 +20,7 @@ export default function Index({ projects }) {
           />
 
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://nordstudios.org" />
+          <meta property="og:url" content="https://nordstud.io" />
           <meta
             property="og:title"
             content="Nord Studio"
@@ -32,7 +32,7 @@ export default function Index({ projects }) {
           <meta property="og:image" content="https://i.imgur.com/097Oi61.png" />
 
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="https://nordstudios.org/" />
+          <meta property="twitter:url" content="https://nordstud.io/" />
           <meta
             property="twitter:title"
             content="Nord Studios"

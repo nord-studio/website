@@ -32,7 +32,7 @@ export default function Post({ metadata, source }) {
           <meta property="og:type" content="website" />
           <meta
             property="og:url"
-            content={`https://nordstudios.org/blog/${metadata.slug}`}
+            content={`https://nordstud.io/blog/${metadata.slug}`}
           />
           <meta property="og:title" content={metadata.title} />
           <meta property="og:description" content={metadata.summary} />
@@ -41,7 +41,7 @@ export default function Post({ metadata, source }) {
           <meta property="twitter:card" content="summary_large_image" />
           <meta
             property="twitter:url"
-            content={`https://nordstudios.org/blog/${metadata.slug}`}
+            content={`https://nordstud.io/blog/${metadata.slug}`}
           />
           <meta property="twitter:title" content={metadata.title} />
           <meta property="twitter:description" content={metadata.summary} />
